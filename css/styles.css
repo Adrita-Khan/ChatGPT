@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* Customize the header */
+header {
+    background-image: url('../assets/header-background.jpg'); /* Add a background image if desired */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Hover effects for links */
+a.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* List group items customization */
+.list-group-item h5 {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer customization */
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        padding: 3rem 1rem;
+    }
+}
